@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Own Website!</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <!-- Yes, using Babel in-browser is not recommended, but this is the only way I could get React to work otherwise with github pages -->
 </head>
 <body id="root">
     <h1> TESTING 123 </h1>
     <h5> welcome to the test page!</h5>
     <p> i hope you have a nice day - i am testing live update now PELASE work </p>
-    <script src="test.jsx" type="module" ></script>
+    <script src="test.jsx" type="text/babel" data-presets="react" ></script>
 </body>
 </html>
