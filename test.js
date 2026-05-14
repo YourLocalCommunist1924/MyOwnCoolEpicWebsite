@@ -8,3 +8,5 @@ root.render(
   <React.StrictMode>
     <h3>THIS IS A REACT TEST!</h3>
   </React.StrictMode>);
+
+  console.log("This is a test of the React application.");
